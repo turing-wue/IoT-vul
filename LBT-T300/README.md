@@ -1,6 +1,7 @@
 # LBT-T300 Buffer Overflow
 
 Vulnerability description: LBT-T300-T310 v2.2.3.6 of Shenzhen Rio Tinto Technology Co., Ltd. was found to have a buffer overflow at/appy.cgi  in/appy.cgi through wan_proto parameter.
+
 function call chain:
 main()-->sub_40B6F0()-->start_single_service()-->start_wan()
 main()-->sub_40B6F0()-->start_single_service()-->start_workmode()-->start_wan()
